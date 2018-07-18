@@ -1,0 +1,12 @@
+[dependencies]
+winapi = "0.2.8"
+kernel32-sys = "0.2.2"
+user32-sys = "0.2.0"
+
+[profile.release]
+lto = true
+
+[package]
+name = "rust-extern"
+version = "0.1.0"
+publish = false
